@@ -36,7 +36,8 @@
                         <i class="fa-solid fa-ruler text-[20px]"></i>
 
                     </div>
-                    <input type="number" name="" id="altura" class="w-[88%] w-full bg-tranparent border-none outline-none">
+                    <input type="number" name="" id="altura"
+                        class="w-[88%] w-full bg-tranparent border-none outline-none">
                     <div class="w-[6%] h-full flex items-center justify-center">
                         m
 
@@ -48,21 +49,22 @@
 
                 </button>
 
-              <div class="w-full h-[1px] bg-[#3F3F47] my-[20px]"></div>
+                <div class="w-full h-[1px] bg-[#3F3F47] my-[20px]"></div>
 
-              <div class="w-full flex h-[150px]">
-                <div class="w-[20%] h-full flex items-center justify-ccenter flex-col">
-                  <p class="text-[50px] text-[#17A34A] font-[500]">20.81</p>
-                  <p>Seu IMC</p>
+                <div id="container-resultado" class="w-full flex h-[150px] hidden">
+                    <div class="w-[20%] h-full flex items-center justify-ccenter flex-col">
+                        <p  id="resultado-imc" class="text-[50px] text-[#17A34A] font-[500]">0.0</p>
+                        <p>Seu IMC</p>
+                    </div>
+                    <div class="w-[80%] h-full flex items-center justify-center text-center">
+                        <p id="resultado-texto" class=""></p>
+                    </div>
                 </div>
-                <div class="w-[80%] h-full flex items-center justify-center text-center">
-                  <p class="">Você está no peso ideal!</p>
-                </div>
-              </div>
-              <div class="w-full h-[1px] bg-[#3F3F47] my-[20px]"></div>
-         </div>
-      </div>
+                <div class="w-full h-[1px] bg-[#3F3F47] my-[20px]"></div>
+            </div>
+        </div>
     </div>
-    <script> srcipt./scrip.js</script>
+    <script src="./script.js"></script>
 </body>
+
 </html>
